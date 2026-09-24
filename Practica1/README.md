@@ -2,9 +2,10 @@ Castrejón Rodríguez Alan
 
 Versión de GHC: 9.10.3
 
-- Objetivo de la práctica:
-    Entender con más detalle las características de Haskell, cómo se compara con otros lenguajes y su aplicación en la industria.
+Objetivo de la práctica:
+    Entender con más detalle las características de Haskell, su comparación con otros lenguajes y su aplicación en la industria.
 
-- Tiempo requerido: Aprox. 3 horas
+Tiempo requerido: Aprox. 3 horas
 
-- Comentarios: En general no tuve ningún problema para la instalación, sólo tardó un poco más que en el video       proporcionado, ya que mi computadora es algo lenta. 
+Comentarios:
+    No tuve ningún problema con la instalación, solo que fue más tardado debido a que mi computadora es algo lenta.

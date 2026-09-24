@@ -1,3 +1,4 @@
+
 1. ¿Cuáles son las principales diferencias entre Haskell y Rust?
 
     - Haskel:
@@ -37,4 +38,7 @@
 Fuentes:
     - Abhilasha Chougule. (2021, January 30). Haskell vs Rust. Educba. https://www.educba.com/haskell-vs-rust/
     - Haskell: el Lenguaje Funcional. (n.d.). Universidad de Sevilla. https://www.cs.us.es/~fsancho/Blog/posts/Haskell_el_lenguaje_funcional.md
+
+    - Jeremiah, O. (2025, April 10). Git frente a GitHub: Diferencias que todo desarrollador debe conocer. Datacamp.Com; DataCamp. https://www.datacamp.com/es/blog/git-vs-github
+
     - Jeremiah, O. (2025, April 10). Git frente a GitHub: Diferencias que todo desarrollador debe conocer. Datacamp.Com; DataCamp. https://www.datacamp.com/es/blog/git-vs-github
