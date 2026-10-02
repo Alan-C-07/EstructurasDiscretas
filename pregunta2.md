@@ -1,1 +1,0 @@
-Le diría que todo lo que he construido es para él y espero que lo aproveche ala máximo.
