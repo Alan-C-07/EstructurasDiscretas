@@ -1,3 +1,5 @@
+import ParBit
+
 --Función: cetes
 --Descripción: recib tu monto inicial, el plazo en meses o dias y devuelva el monto final disponible al concluir el plazo seleccionado.
 
@@ -37,3 +39,29 @@ mensajeCetes monto plazo =
 
 negativos :: [Int] -> Int
 negativos lista = length[x | x <- lista, x < 0]
+
+--Función: soloPares
+--Descripción: recibe una lista de tipo entero, y devuelve una lista únicamente con los números que sean pares de la lista original.
+
+soloPares :: [Int] -> [Int]
+soloPares lista = [x | x <- lista, esParBit x] 
+
+--Función: primos
+--Descripción: devuleve los primos de la lista
+
+esPrimo :: Int -> Bool
+esPrimo n = 
+        length[x | x <- [2..n-1], n `mod` x == 0] == 0
+
+primos :: [Int] -> [Int]
+primos lista = [x | x <- lista, esPrimo x]
+
+--Función: coprimos
+--Descripción: recibe un entero y devuelve una lista de los coprimos de n
+
+esCoprimo :: Int -> Int -> Bool
+esCoprimo n x = 
+        length[d | d <- [1..n], n `mod` d == 0, x `mod` d == 0] == 1
+
+coprimos :: Int -> [Int]
+coprimos n = [x | x <- [1..n-1], esCoprimo n x]
