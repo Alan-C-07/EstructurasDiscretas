@@ -15,3 +15,10 @@ a_natural n = S (a_natural (n-1))
 potenciaNat :: Natural -> Natural -> Natural
 potenciaNat n Cero = S Cero
 potenciaNat n (S m) = multiplicaNat n (potenciaNat n m)
+
+--Función: facNat
+--Descripción: devuelve el factorial de un natural dado.
+
+facNat :: Natural -> Natural
+facNat Cero = S Cero
+facNat (S n)= multiplicaNat (S n) (facNat (n))
